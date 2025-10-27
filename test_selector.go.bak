@@ -1,0 +1,49 @@
+package main
+
+import (
+	"fmt"
+	"os"
+	"strings"
+
+	"github.com/PuerkitoBio/goquery"
+)
+
+func main() {
+	htmlBytes, err := os.ReadFile("debug.html")
+	if err != nil {
+		fmt.Printf("Error reading debug.html: %v\n", err)
+		return
+	}
+
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(string(htmlBytes)))
+	if err != nil {
+		fmt.Printf("Error parsing HTML: %v\n", err)
+		return
+	}
+
+	var currentPrice, originalPrice string
+
+	// Original price from data-price-type
+	doc.Find("span[data-price-type='finalPrice']").Each(func(i int, s *goquery.Selection) {
+		text := strings.TrimSpace(s.Text())
+		fmt.Printf("Found data-price-type=finalPrice: '%s'\n", text)
+		if originalPrice == "" && strings.Contains(text, "₼") {
+			originalPrice = text
+		}
+	})
+
+	// Current price from strong > span
+	doc.Find("div.prodCart__prices strong").Each(func(i int, s *goquery.Selection) {
+		s.Find("span").First().Each(func(j int, span *goquery.Selection) {
+			text := strings.TrimSpace(span.Text())
+			fmt.Printf("Found strong > span: '%s'\n", text)
+			if currentPrice == "" && strings.Contains(text, "₼") {
+				currentPrice = text
+			}
+		})
+	})
+
+	fmt.Printf("\nResults:\n")
+	fmt.Printf("Current Price: %s\n", currentPrice)
+	fmt.Printf("Original Price: %s\n", originalPrice)
+}

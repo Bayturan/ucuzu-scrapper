@@ -1,0 +1,149 @@
+Web Scraper API Server starting on :8080
+Available endpoints:
+  GET /api/v1/scrape?site=kontakt&uri=<product-url>
+  GET /api/v1/health
+  GET /api/v1/sites
+DEBUG: Starting chromedp for URL: https://kontakt.az/iphone-13-128-gb-midnight
+DEBUG: Successfully fetched HTML (length: 1050625 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '1.379,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.379,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.379,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.379,99 ₼'
+DEBUG: Found strong > span text: '1.149,99 ₼'
+DEBUG: Found strong > span text: '1.149,99 ₼'
+DEBUG: Found discount text: '-230₼'
+DEBUG: Found discount text: '-230 ₼ nağd alışa'
+2025/10/17 11:46:19 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/iphone-13-128-gb-midnight [::1]:58460 - 23.886096621s
+DEBUG: Starting chromedp for URL: https://kontakt.az/playstation-5-slim-1-tb-abunelik
+DEBUG: Successfully fetched HTML (length: 1222097 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.359,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '499,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '299,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '749,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '499,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+2025/10/17 11:46:42 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/playstation-5-slim-1-tb-abunelik [::1]:47620 - 9.208962873s
+DEBUG: Starting chromedp for URL: https://kontakt.az/alzzoni-frost-divan-face-4
+DEBUG: Successfully fetched HTML (length: 1230199 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '849,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '849,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '849,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.999,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '899,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.999,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.899,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '699,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '2.199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '949,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.949,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '649,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.999,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.099,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.889,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.699,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.949,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '3.099,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '2.199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.699,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.899,99 ₼'
+DEBUG: Found strong > span text: '449,99 ₼'
+DEBUG: Found strong > span text: '449,99 ₼'
+DEBUG: Found discount text: '-400₼'
+DEBUG: Found discount text: '-400 ₼ nağd alışa'
+2025/10/17 11:48:25 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/alzzoni-frost-divan-face-4 [::1]:51400 - 15.65992522s
+DEBUG: Starting chromedp for URL: https://kontakt.az/samsung-galaxy-s25-sm-s931b-12-128-gb-navy
+DEBUG: Successfully fetched HTML (length: 978709 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '1.899,99 ₼'
+DEBUG: Found strong > span text: '1.599,99 ₼'
+DEBUG: Found discount text: '-300₼'
+DEBUG: Found discount text: '-300 ₼ nağd alışa'
+2025/10/17 11:48:49 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/samsung-galaxy-s25-sm-s931b-12-128-gb-navy [::1]:36806 - 12.355812765s
+2025/10/17 11:49:27 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/product/iphone-14-128gb-midnight-apple-llz [::1]:34834 - 441.74629ms
+2025/10/17 11:49:37 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/product/iphone-14-128gb-midnight-apple-llz [::1]:46064 - 174.778877ms
+2025/10/17 11:50:38 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/product/playstation-5-dualsense-825gb-sony-llz [::1]:42054 - 182.844945ms
+2025/10/17 11:51:26 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/product/playstation-5-dualsense-825gb-sony-llz [::1]:32912 - 179.086065ms
+2025/10/17 11:51:58 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/az/mehsullar/iphone-13-128-gb-starlight-861668 [::1]:46068 - 1.643218804s
+DEBUG: Starting chromedp for URL: https://kontakt.az/playstation-5-slim-1-tb-abunelik
+DEBUG: Successfully fetched HTML (length: 1222093 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.359,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '499,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '299,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '749,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '299,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+2025/10/17 11:52:17 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/playstation-5-slim-1-tb-abunelik 127.0.0.1:56382 - 9.433445345s
+DEBUG: Starting chromedp for URL: https://kontakt.az/playstation-5-slim-1-tb-abunelik
+2025/10/17 12:02:37 [GET] /api/v1/scrape?site=irshad&uri=https://irshad.az/az/mehsullar/tv-kivi-43u750nw 127.0.0.1:56326 - 1.403606774s
+DEBUG: Successfully fetched HTML (length: 1222488 bytes)
+Debug HTML saved to debug.html
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.439,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '229,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '2.099,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '1.359,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '299,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '599,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '549,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '299,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '249,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '199,99 ₼'
+DEBUG: Found data-price-type=finalPrice text: '799,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+DEBUG: Found strong > span text: '1.439,99 ₼'
+2025/10/17 12:02:41 [GET] /api/v1/scrape?site=kontakt&uri=https://kontakt.az/playstation-5-slim-1-tb-abunelik 127.0.0.1:56314 - 10.299150803s
