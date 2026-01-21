@@ -1,0 +1,7 @@
+nohup: ignoring input
+Web Scraper API Server starting on :8080
+Available endpoints:
+  GET /api/v1/scrape?site=kontakt&uri=<product-url>
+  GET /api/v1/health
+  GET /api/v1/sites
+2025/10/27 15:41:37 [GET] /api/v1/scrape?site=soliton&uri=https://soliton.az/az/meiset-texnikasi/kondisionerler/20240709030951581-riffel-asw-jf-120-121.html [::1]:49132 - 8.111204863s

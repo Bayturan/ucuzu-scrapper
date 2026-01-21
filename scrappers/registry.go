@@ -84,9 +84,11 @@ func GetAvailableSites() []SiteInfo {
 // getBaseURL returns the base URL for known sites
 func getBaseURL(identifier string) string {
 	baseURLs := map[string]string{
-		"kontakt": "https://kontakt.az",
-		"irshad":  "https://irshad.az",
-		"optimal": "https://optimal.az",
+		"kontakt":         "https://kontakt.az",
+		"irshad":          "https://irshad.az",
+		"optimal":         "https://optimal.az",
+		"bakuelectronics": "https://bakuelectronics.az",
+		"soliton":         "https://soliton.az",
 	}
 
 	if url, exists := baseURLs[identifier]; exists {
